@@ -17,6 +17,6 @@ describe("index.js", () => {
       displayMessage(testContent)
       let content = document.getElementById("greeting").innerText
       expect(content).to.equal(testContent)
-    })
+    }) 
   })
 })
